@@ -147,12 +147,12 @@ function drawText() {
     }
     if(frameNumber > 1500 && frameNumber < 1750){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("Bazen konuşurken birbirimizin sinirini de çok bozabiliyoruz”, canvas.width/2, canvas.height/2);
+        context.fillText("Bazen konuşurken birbirimizin sinirini de çok bozabiliyoruz", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
     if(frameNumber >= 1750 && frameNumber < 2000){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("Bazen konuşurken birbirimizin sinirini de çok bozabiliyoruz”, canvas.width/2, canvas.height/2);
+        context.fillText("Bazen konuşurken birbirimizin sinirini de çok bozabiliyoruz", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
